@@ -1,0 +1,13 @@
+langchain
+openai
+streamlit
+streamlit-chat
+st-annotated-text
+streamlit-embedcode
+numpy
+pandas
+sklearn
+pytest
+flake8
+autopep8
+load_dotenv
