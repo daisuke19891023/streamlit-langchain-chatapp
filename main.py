@@ -28,18 +28,6 @@ if "generated" not in st.session_state:
 if "past" not in st.session_state:
     st.session_state["past"] = []
 
-
-if "input_text" not in st.session_state:
-    st.session_state["input_text"] = ""
-
-
-def get_text() -> str:
-    input_text: str = st.text_input("You: ", st.session_state["input_text"], key="input_text", placeholder="please type here")
-    return input_text
-
-def clear_text():
-    st.session_state["input_text"] = ""
-
 with st.form(key="form", clear_on_submit=True):
     user_input: str = st.text_area("You: ", "", key="input_text", placeholder="please type here")
     submit: bool = st.form_submit_button("Submit")
