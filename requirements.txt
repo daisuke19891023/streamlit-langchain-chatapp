@@ -12,3 +12,6 @@ flake8
 autopep8
 load_dotenv
 google-api-python-client
+pypdf
+tiktoken
+# chromadb
